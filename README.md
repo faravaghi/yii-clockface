@@ -9,19 +9,23 @@ Your support is appreciated.
 Please make pull requests on <code>dev</code> branch. Thank you!
 
 ## Example
+```php
+<?php
 
-	$this->widget('ext.clockface.ClockFace',
-		array(
-			'name'=>'time',
-			'value' => $model->time,
-			'options'=>array(
-				'format'=>'HH:mm'
-			),
-			'htmlOptions' => array(
-				'placeholder' 	=> 'Time',
-			)
+$this->widget('ext.clockface.ClockFace',
+	array(
+		'name'=>'time',
+		'value' => $model->time,
+		'options'=>array(
+			'format'=>'HH:mm'
+		),
+		'htmlOptions' => array(
+			'placeholder' 	=> 'Time',
 		)
-	);
+	)
+);
+?>
+```
 
 ## License
 Copyright &copy; 2013 - Mohammad Ebrahim amini  
