@@ -8,15 +8,18 @@
  * @package ClockFace.widgets
  *
  * Example :
- *	$this->widget('ext.clockface.ClockFace',array(
- * 		'name'=>'Entry[Associates]',
- *		'options'=>array(
- *			//'getURL'=>$ajaxURL,
- *			'assigned'=> Site::model()->findAll(),
- *			'available'=> Example::model()->findAll(),
- *			'autocomplete'=>true,
- *		),
- *	));
+ *	$this->widget('ext.clockface.ClockFace',
+ *		array(
+ *			'name'=>'time',
+ *			'value' => $model->time,
+ *			'options'=>array(
+ *				'format'=>'HH:mm'
+ *			),
+ *			'htmlOptions' => array(
+ *				'placeholder' 	=> 'Time',
+ *			)
+ *		)
+ *	);
  */
 class ClockFace extends CInputWidget
 {
