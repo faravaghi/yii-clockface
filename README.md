@@ -24,5 +24,5 @@ Please make pull requests on <code>dev</code> branch. Thank you!
 	);
 
 ## License
-Copyright (c) 2012 Vitaliy Potapov  
+Copyright &copy; 2013 - Mohammad Ebrahim amini  
 Licensed under the MIT licenses.
